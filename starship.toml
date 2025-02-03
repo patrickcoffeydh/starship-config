@@ -42,6 +42,9 @@ format = "[](fg:background)[$path](bg:background)[](fg:background)"
 truncate_to_repo = false
 truncation_length = 0
 
+[directory.substitutions]
+Developer = "\ueeff "
+
 [status]
 format = "[─](fg:separator)[](fg:status)[](fg:icon bg:status)[](fg:status bg:background)[ $status](bg:background)[](fg:background)"
 pipestatus = true
